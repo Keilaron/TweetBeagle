@@ -1,0 +1,27 @@
+ /*	*/
+.search-pane input[type="submit"].search {
+	width:100px;
+	font-size:1em;
+	margin-top: 0px;
+	padding: 5px 9px;
+}
+
+.dash-public-collections {
+	overflow: auto;
+	height: 300px;
+	margin: 0.25em 0em 0.5em 0em;
+}
+
+.dash-right-pane {
+	padding-top: 20px;
+}
+
+.dash-my-cols p {
+	font-size: 1.25em;
+}
+
+.create-col-btn {
+	font-size: 1.5em !important;
+	margin-top: 20px;
+	height: 50px;
+}

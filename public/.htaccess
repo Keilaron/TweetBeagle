@@ -1,0 +1,12 @@
+
+# The subdomain/virtualhost should point to this directory,
+# not the parent directory.
+php_flag magic_quotes_gpc Off
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>

@@ -1,0 +1,17 @@
+
+TweetBeagle is an application which was created by SilenceIT.
+
+--
+
+This repository mainly exists as a base for anyone interested in doing
+similar efforts and as a reference for those looking for sample work that
+I or any ex-SilenceIT employees have done.
+This isn't our best effort, but is one of the few pieces of code which was
+authorized for public release.
+
+--
+
+TweetBeagle is a twitter aggregating application.
+It uses the Twitter API to follow lists and search terms, and collects
+data based on these for various usages,
+such as identifying trends as they start.
